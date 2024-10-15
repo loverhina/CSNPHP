@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/styles.css" />
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="header">
+        <img src="images/csnlogo.png" />
+        <div class="headertextdiv">
+            <h1>Parañaque City Center</h1>
+            <h2>for Children with Special Needs</h2>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="login-container">
+            <div class="parentportal">PARENT PORTAL</div>
+            <div class="loginform">
+                <h2 class="login-title">LOGIN</h2>
+                <form action="login.php" method="post">
+                    <div class="input-group">
+                        <label>CSN PARENT ID</label>
+                        <!-- Add name attribute to the input field -->
+                        <input type="text" name="username" placeholder="CSN001" required />
+                    </div>
+                    <div class="input-group">
+                        <label>PASSWORD</label>
+                        <!-- Add name attribute to the input field -->
+                        <input type="password" name="password" placeholder="********" required />
+                    </div>
+                    <!-- Remove the <a> tag that wraps the button -->
+                    <button type="submit" class="login-btn">LOGIN</button>
+                </form>
+
+                <div class="registertext">
+                    <h1>Haven't registered yet? Sign up here</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1>Privacy Statement | Policy | Contact Us</h1>
+        <h2>2024 by CSN Paranaque. All Rights Reserved.</h2>
+    </div>
+</body>
+</html>
